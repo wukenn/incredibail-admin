@@ -1,0 +1,463 @@
+/*
+  Theme Name: Name - 
+  Author: Humayun Ahmed
+  Support: humayunahmed82@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+
+*/
+
+
+/*===========================
+    1. Theme default css 
+===========================*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	background: var(--main-bg);
+}
+.img {
+	max-width: 100%;
+	-webkit-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover{
+	text-decoration: none;
+}
+
+span,
+a{
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #1d2025;
+	margin-top: 0px;
+}
+
+h1 {
+	font-weight: 500;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul,ol {
+	margin: 0px;
+	padding: 0px;
+    list-style-type: none;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #909291;
+	margin-bottom: 0px;
+}
+
+.bg_cover{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+:root {
+	--main-bg:#292E58;
+	--blueColor:#626EE6;
+}
+.section-title h3 {
+	color: #fff;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 1;
+	margin: 0;
+}
+/* Header Area Css Start */
+.header-area {
+	background: #3C4273;
+	min-height: 70px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.logo h3 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 600;
+	margin: 0;
+	line-height: 1;
+}
+.header-search .form-control {
+	color: #DCDCDC;
+	font-size: 15px;
+	background: #fff;
+	padding-left: 30px;
+}
+.header-search {
+	position: relative;
+}
+.header-search .search-icon {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	color: #ddd;
+}
+.head-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.head-text h4 {
+	color: #fff;
+	font-size: 18px;
+	margin: 0;
+	line-height: 1;
+  }
+  .h-user-icon {
+	background: #626EE6;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	float:right;
+  }
+  .h-user-icon i {
+	color: #fff;
+	font-size: 22px;
+	vertical-align: middle;
+	line-height: 38px;
+  }
+/* Header Area Css End */
+
+
+/* Main Section Area Css Start */
+.main-section {
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+.c-bail-card a {
+	display: block;
+}
+.card.c-bail {
+	background: #3B4BC6;
+}
+.card {
+	width:100%;
+	border-radius: 15px;
+}
+.cardd-img .card-img-top {
+	max-width: 130px;
+	padding-top: 30px;
+}
+.bail-content h4 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	margin: 0;
+	line-height: 1;
+	margin-bottom: 8px;
+}
+.sp-st {
+	margin-bottom: 5px;
+}
+.sp-st span {
+	color: #9FA6E9;
+	font-size: 13px;
+	display: inline-block;
+	font-weight: 500;
+	margin: 0 8px;
+	line-height: 1;
+}
+.sp-st .left {
+	position: relative;
+}
+.sp-st .left::after {
+	position: absolute;
+	width: 1px;
+	height: 15px;
+	background: #9FA6E9;
+	content: "";
+	top: -1px;
+	right: -11px;
+}
+.status p {
+	font-size: 16px;
+	color: #5ECAA1;
+	font-weight: 600;
+}
+.card.p-bail {
+	background: #6573FF;
+}
+.doller-status span {
+	color: #1F2AD9;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 600;
+}
+.doller-status .num {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0 3px;
+}
+.d-icon i {
+	font-size: 12px;
+	margin-: ;
+	vertical-align: middle;
+	margin-bottom: 4px;
+}
+/* Main Section Area Css End */
+
+/* Bail-info Page Css Start */
+.back-btn a {
+	font-size: 18px;
+	color: var(--blueColor);
+}
+.bail-nav #nav-tab {
+	border: 0;
+}
+.bail-nav .nav {
+	justify-content: center;
+}
+.bail-nav .nav-tabs .nav-link {
+	background: transparent;
+	border: 0;
+	color: var(--blueColor);
+	font-size: 28px;
+	text-align: ;
+	position: relative;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.bail-nav .nav-item.nav-link.active {
+	color: #fff;
+	border-bottom: 2px solid var(--blueColor);
+}
+.bail-nav .nav-item.nav-link.first {
+	margin-right: 42px;
+}
+.bail-nav .nav {
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	width: 300px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between !important;
+}
+.bail-info-content {
+	padding-top: 30px;
+}
+.about-user img {
+	max-width: 165px;
+	margin-bottom: 35px;
+}
+.about-bail {
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+.bail-info-content {
+	text-align: left;
+}
+.info li {
+	color: #AAACBD;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 50px;
+}
+.info li span {
+	font-weight: 600;
+	margin-right: 5px;
+	display: inline-block;
+	color: #fff;
+}
+
+.accout-rate .total {
+	height: 35px;
+	width: 100%;
+	background: #fff;
+	position: relative;
+  }
+  .accout-rate .total::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 80%;
+	height: 100%;
+	background: var(--blueColor);
+	content: "";
+  }
+  .doller-status.info span {
+	color: #fff;
+}
+.accout-rate {
+	margin-top: 24px;
+}
+.accout-rate .total {
+	margin-bottom: 20px;
+}
+.update-content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.update-list li {
+	text-align: left;
+}
+.update-list li span.p {
+	color: #A2A4B7;
+	font-size: 17px;
+	text-align: left;
+	padding-left: 5px;
+}
+.round {
+	width: 18px;
+	height: 18px;
+	background: #827AFF;
+	border-radius: ;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	margin-right: 5px;
+}
+.round::after {
+	position: absolute;
+	width: 1px;
+	height: 95px;
+	background: var(--blueColor);
+	content: "";
+	top: 98%;
+	left: 50%;
+}
+.round.rd-2 {
+	background: #48FFB7;
+	marginri: ;
+}
+.round.rd-3 {
+	background: #C03A40;
+}
+.last-li.mb-80 {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.last-li.mb-80 span.p {
+	width: 95%;
+}
+/* Bail-info Page Css End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
